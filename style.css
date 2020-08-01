@@ -1,0 +1,150 @@
+body {
+    -moz-appearance: none; 
+    -webkit-appearance: none;
+    font-family: arial, sans-serif;
+    font-size: small;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 1.5rem;
+    text-align: right;
+}
+
+nav ul button {
+    margin-left: 13px;
+    padding: 8px 13px;
+    background: rgb(68, 133, 244);
+    color: #fff;
+    font-weight: 800;
+    border: none;
+}
+
+nav ul li {
+    display: inline;
+    padding-left: 1rem;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+}
+
+#logo-image {
+    text-align: center;
+    position: relative;
+    top: 5.5rem;
+}
+
+#search-form {
+    text-align: center;
+    position: relative;
+    top: 8em;
+}
+
+#search-text-box {
+    width: 35rem;
+    height: 2.5rem;
+    border: 1px solid lightgray;
+    border-radius: 40px;
+    padding-left: 2rem;
+    font-size: 1rem;
+}
+
+#btn-google-search {
+    cursor: pointer;
+    background-color: #F3F3F3;
+    color: #687082;
+    font-size: 0.9rem;
+    margin: 25px 8px;
+    padding: 8px 15px;
+    border: thin solid #F3F3F3;
+}
+
+#btn-google-search:hover {
+    border: thin solid gray;
+    border-radius: 4px;
+    color: #000;
+}
+
+#btn-im-feeling-lucky {
+    cursor: pointer;
+    background-color: #F3F3F3;
+    color: #687082;
+    font-size: 0.9rem;
+    margin: 25px 8px;
+    padding: 8px 15px;
+    border: thin solid #F3F3F3;
+}
+
+#btn-im-feeling-lucky:hover {
+    border: thin solid gray;
+    border-radius: 4px;
+    color: #000;
+}
+
+/* FOOTER */
+/* Left Hand Side Footer */
+#footer-left {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border: 1px solid lightgray;
+    background: #F2F2F2;
+}
+
+#footer-left ul {
+    list-style-type: none;
+    padding: 1rem;
+}
+
+#footer-left ul li {
+    display: inline;
+    padding-left: 1.5rem;
+}
+
+#footer-left li a {
+    text-decoration: none;
+    color:gray;
+}
+
+#footer-left li a:hover {
+    text-decoration: underline;
+}
+
+/* Right hand side Footer */
+#footer-right {
+    position: fixed;
+    left: -1rem;
+    float: right;
+    bottom: 0;
+    width: 100%;
+}
+
+#footer-right ul {
+    float: right;
+    list-style-type: none;
+    padding: 1rem;
+}
+
+#footer-right ul li {
+    display: inline;
+    padding-left: 1.5rem;
+}
+
+#footer-right li a {
+    text-decoration: none;
+    color: gray;
+}
+
+#footer-right li a:hover {
+    text-decoration: underline;
+}
+
+
+
